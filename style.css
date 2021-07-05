@@ -198,6 +198,7 @@ color: orange;
 #form{
 padding-top: 10%;
 padding-left: 30%;
+
 }
 .details{
 
@@ -215,3 +216,9 @@ padding-left: 30%;
 #form h1{
     color: yellowgreen;
 }
+input{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
