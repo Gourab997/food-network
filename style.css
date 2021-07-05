@@ -151,6 +151,7 @@ body{
     font-size : 12px;
     font-weight: 300;
     box-shadow: 10px 10px 40px gray;
+    margin-bottom: 10%;
 
 }
 #youtube{
@@ -164,4 +165,20 @@ body{
 #dribble{
     font-size: 15px;
     padding-left: 15%;
+}
+.footer{
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+.footer h2{
+color: rgb(56, 54, 54);
+}
+#food{
+color: orange;
+}
+.footer p{
+    color: antiquewhite;
 }
