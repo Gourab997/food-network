@@ -46,8 +46,9 @@ body{
  }
 
  .secound-banner{
-     background-image: url(./image/Frame\ 57.jpg);
-     background-repeat: no-repeat;
+     background-image: url(./image/Frame.jpg);
+     background-size: 90%;
+     
 
      
  }
@@ -58,4 +59,11 @@ body{
  }
  .secound-banner img{
      width: 25%;
+ }
+ .secound-banner p{
+     padding-bottom: 10%;
+ }
+ #about{
+     color: #565656;
+     font-weight: 900;
  }
