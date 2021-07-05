@@ -15,7 +15,7 @@ body{
    
 }
 #heading{
-    font-size: 30px;
+    font-size: 32px;
     padding-right: 15%;
     font-weight: 900;
     line-height: 60%;
@@ -24,19 +24,21 @@ body{
 } 
  .first-banner img{
      margin-top: -5%;
+     padding-left: 25%;
      width: 30%;
  
  }
 
  #heading p{
      margin-top: 10%;
-     font-size: 12px;
+     font-size: 15px;
      margin-bottom: 10%;
+     font-weight: 900;
  }
  #link-button{
      
      text-decoration: none;
-    background-image: linear-gradient(orange , red);
+    background-image: linear-gradient(rgba(255, 166, 0, 0.842) , rgba(255, 0, 0, 0.712));
     border-radius: 40px;
    padding: 15px 20px;
    font-size: 15px;
@@ -59,6 +61,7 @@ body{
  }
  .secound-banner img{
      width: 25%;
+     padding-left: 0%;
  }
  .secound-banner p{
      padding-bottom: 10%;
@@ -181,4 +184,34 @@ color: orange;
 }
 .footer p{
     color: antiquewhite;
+}
+.contact{
+    display: flex;
+    background-image:url(./image/Frame2.jpg);
+    padding-left: 20%;
+}
+.contact img{
+    width: 70%;
+    padding-bottom: 10%;
+}
+
+#form{
+padding-top: 10%;
+padding-left: 30%;
+}
+.details{
+
+    padding-top: 15%;
+    padding-left: 20%;
+    padding-bottom: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    color: rgba(80, 76, 77, 0.849);
+}
+.details h1{
+    color:orange;
+    font-size: 35px;
+}
+#form h1{
+    color: yellowgreen;
 }
