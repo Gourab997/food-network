@@ -62,9 +62,12 @@ body{
  .secound-banner img{
      width: 25%;
      padding-left: 0%;
+     
  }
  .secound-banner p{
      padding-bottom: 10%;
+     font-size: 17px;
+     color: #535050e8;
  }
  #about{
      color: #565656;
@@ -83,16 +86,26 @@ body{
     margin-right: 3%;
     padding-left: 30px;
     padding-right: 30px;
+    
     border-radius: 20px;
     box-shadow: 5px 5px 20px gray;
  }
- #image-resize{    width:100%;
-     
+ .thai h2{
+     padding-top: 10%;
+ }
+ .thai p{
+     padding-top: 5%;
+ }
+ #image-resize{   
+    width:100%;
+    height: 220px;
     padding-top: 20px;
-    padding-right: 150px;
-    margin-right: 0;
-    padding-bottom: 7%;
-    border-radius: 30px;}
+   
+   
+    
+    border-radius: 40px ;}
+
+
  .food-cardbox{
     
      display: flex;
@@ -106,7 +119,9 @@ body{
 
  }
  
- 
+ #social{
+   margin-left: 10%;
+ }
  
  
  
@@ -196,7 +211,10 @@ input{
 #qhead h1{
     color: blueviolet;
     text-align: center;
-    
+    font-size: 30px;
+}
+#burger{
+    padding-left: 20%;
 }
 
 #burger img{
