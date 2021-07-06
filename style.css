@@ -50,7 +50,7 @@ body{
  .secound-banner{
      background-image: url(./image/Frame.jpg);
      background-size: 90%;
-     
+    
 
      
  }
@@ -64,10 +64,14 @@ body{
      padding-left: 0%;
      
  }
+ .secound-banner a{
+     padding-top: 5%;
+ }
  .secound-banner p{
      padding-bottom: 10%;
      font-size: 17px;
      color: #535050e8;
+     font-weight: 400;
  }
  #about{
      color: #565656;
